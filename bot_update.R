@@ -4,6 +4,11 @@ library(httr)
 
 # source("gdrive.R")
 
+source("https://raw.githubusercontent.com/favstats/discordr/master/R/logging.R")
+source("https://raw.githubusercontent.com/favstats/discordr/master/R/rest-api-tools.R")
+source("https://raw.githubusercontent.com/favstats/discordr/master/R/websocket.R")
+
+
 
 # source("utils.R")
 
