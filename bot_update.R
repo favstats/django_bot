@@ -38,7 +38,9 @@ bot$register_event_handler("MESSAGE_CREATE", function(msg){
   
   # print(msg)
   
-  print(msg$content)
+  # print(msg$content)
+  
+  # yo <- "<@&974420601810853931>"
   
   if(startsWith(msg$content, "<@&974420601810853931>") | startsWith(msg$content, "<@974385611161075713>") | startsWith(msg$content, "<@&974391049118179351>")){
     
@@ -46,7 +48,20 @@ bot$register_event_handler("MESSAGE_CREATE", function(msg){
     the_prompt <- gsub("<@&974391049118179351> ", "", the_prompt)
     the_prompt <- gsub("<@&974420601810853931>" , "", the_prompt)
     
+    bot_id <- paste0("<", regmatches(the_prompt, gregexpr( "(?<=\\<).+?(?=\\>)", the_prompt, perl = T))[[1]], ">")
     
+    if(bot_id %in% c("<@974385611161075713>",
+                     "<@&974391049118179351>",
+                     "<@&974420601810853931>" 
+    )) {
+      print(paste0(bot_id, ": ", "MATCH"))
+    } else {
+      print(paste0(bot_id, ": ", "FAIL"))
+      cat(bot_id, file = "fail_id.txt")
+    }
+
+
+          
     n_tokens <- as.numeric(regmatches(the_prompt, gregexpr( "(?<=\\[).+?(?=\\])", the_prompt, perl = T))[[1]])
     
     if(length(n_tokens)==0) {
@@ -55,7 +70,7 @@ bot$register_event_handler("MESSAGE_CREATE", function(msg){
       the_prompt <- gsub(paste0(" \\[", n_tokens, "\\]"), "", the_prompt)
     }
     
-    print(the_prompt)
+    # print(the_prompt)
     
     gpt_prompt <- list(
       prompt = the_prompt,
@@ -78,7 +93,7 @@ bot$register_event_handler("MESSAGE_CREATE", function(msg){
     
     message_to_sent <- content(output)$choices[[1]]$text
     
-    print(message_to_sent)
+    # print(message_to_sent)
     
     send_message(message_to_sent, as.character(msg$channel_id), bot) 
        
@@ -87,14 +102,14 @@ bot$register_event_handler("MESSAGE_CREATE", function(msg){
 })
 
 
-enable_console_logging(level=10)
-enable_file_logging(level=10)
+# enable_console_logging(level=10)
+# enable_file_logging(level=10)
 
 bot$start()
 
-# Sys.sleep(60*60*4.9)
-# 
-# bot$finalize()
+Sys.sleep(60*60*4.9)
+
+bot$finalize()
 
 
 
