@@ -676,3 +676,633 @@
  2022-05-12 23:43:29 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:43:29.111000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974426616446844928", mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2021-02-15T17:44:04.844000+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974426615520063519", flags = 0, embeds = list(), 
     edited_timestamp = NULL, content = "das ging jetzt lokal, ich guck mal ob ddas auf Github auch läuft, das lief bisher nich", components = list(), channel_id = "546099563006787607", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "546099563006787604")
 2022-05-12 23:43:29 DEBUG::about to handle event
+2022-05-12 23:51:06 DEBUG::Received message
+2022-05-12 23:51:07 DEBUG::msg: NULL
+ 2022-05-12 23:51:07 DEBUG::msg: NULL
+ 2022-05-12 23:51:07 DEBUG::msg: 10
+ 2022-05-12 23:51:07 DEBUG::msg: list(heartbeat_interval = 41250, `_trace` = "[\"gateway-prd-main-czm3\",{\"micros\":0.0}]")
+2022-05-12 23:51:07 DEBUG::handling hello
+2022-05-12 23:51:07 DEBUG::Sending payload on websocket
+2022-05-12 23:51:07 DEBUG::{"op":1,"d":"Null"}
+2022-05-12 23:51:07 WARNING::Client disconnected with code
+2022-05-12 23:51:36 DEBUG::Received message
+2022-05-12 23:51:36 DEBUG::msg: NULL
+ 2022-05-12 23:51:36 DEBUG::msg: NULL
+ 2022-05-12 23:51:36 DEBUG::msg: 10
+ 2022-05-12 23:51:36 DEBUG::msg: list(heartbeat_interval = 41250, `_trace` = "[\"gateway-prd-main-zvrh\",{\"micros\":0.0}]")
+2022-05-12 23:51:36 DEBUG::handling hello
+2022-05-12 23:51:36 DEBUG::Sending payload on websocket
+2022-05-12 23:51:36 DEBUG::{"op":1,"d":"Null"}
+2022-05-12 23:51:36 DEBUG::first connection: so identify
+2022-05-12 23:51:36 DEBUG::sending indentify
+2022-05-12 23:51:36 DEBUG::private$intent: 512
+2022-05-12 23:51:36 DEBUG::Sending payload on websocket
+2022-05-12 23:51:36 DEBUG::{"op":2,"d":{"token":"OTc0Mzg1NjExMTYxMDc1NzEz.GJG0s5.8PejUjC8QKRbxS1tLEgbtpuwGTYFWVtihqnEz4","properties":{"$os":"Windows","$browser":"R","$device":"R"},"intents":512}}
+2022-05-12 23:51:36 DEBUG::Received message
+2022-05-12 23:51:36 DEBUG::msg: NULL
+ 2022-05-12 23:51:36 DEBUG::msg: NULL
+ 2022-05-12 23:51:36 DEBUG::msg: 11
+ 2022-05-12 23:51:36 DEBUG::msg: NULL
+2022-05-12 23:51:37 DEBUG::Received message
+2022-05-12 23:51:37 DEBUG::msg: READY
+ 2022-05-12 23:51:37 DEBUG::msg: 1
+ 2022-05-12 23:51:37 DEBUG::msg: 0
+ 2022-05-12 23:51:37 DEBUG::msg: list(v = 9, user_settings = list(), user = list(verified = TRUE, username = "Django", mfa_enabled = FALSE, id = "974385611161075713", flags = 0, email = NULL, discriminator = "6563", bot = TRUE, avatar = NULL), session_id = "b935463570f81ba369898d95efde4d70", relationships = list(), private_channels = list(), presences = list(), guilds = list(unavailable = c(TRUE, TRUE), id = c("546099563006787604", "721844860071706654")), guild_join_requests = list(), geo_ordered_rtc_regions = c("rotterdam", "milan", 
+"stockholm", "madrid", "st-pete"), application = list(id = "974385611161075713", flags = 262144), `_trace` = "[\"gateway-prd-main-zvrh\",{\"micros\":101236,\"calls\":[\"discord-sessions-green-prd-2-129\",{\"micros\":85476,\"calls\":[\"start_session\",{\"micros\":57280,\"calls\":[\"discord-api-699c846cd9-ffn4p\",{\"micros\":50095,\"calls\":[\"get_user\",{\"micros\":6838},\"add_authorized_ip\",{\"micros\":1400},\"get_guilds\",{\"micros\":3934},\"coros_wait\",{\"micros\":2}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":11115,\"calls\":[]}]}]}]")
+2022-05-12 23:51:37 DEBUG::about to handle event
+2022-05-12 23:51:46 DEBUG::Received message
+2022-05-12 23:51:46 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:51:46 DEBUG::msg: 2
+ 2022-05-12 23:51:46 DEBUG::msg: 0
+ 2022-05-12 23:51:46 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:51:45.629000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974428699401125888", mentions = list(), mention_roles = "974391049118179351", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2020-06-14T21:53:46+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974428698067501116", flags = 0, 
+    embeds = list(), edited_timestamp = NULL, content = "<@&974391049118179351> whats wrong with you", components = list(), channel_id = "721844860713435158", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "721844860071706654")
+2022-05-12 23:51:46 DEBUG::about to handle event
+2022-05-12 23:52:17 DEBUG::Sending payload on websocket
+2022-05-12 23:52:17 DEBUG::{"op":1,"d":2}
+2022-05-12 23:52:17 DEBUG::Received message
+2022-05-12 23:52:17 DEBUG::msg: NULL
+ 2022-05-12 23:52:17 DEBUG::msg: NULL
+ 2022-05-12 23:52:17 DEBUG::msg: 11
+ 2022-05-12 23:52:17 DEBUG::msg: NULL
+2022-05-12 23:53:06 DEBUG::Received message
+2022-05-12 23:53:06 DEBUG::msg: NULL
+ 2022-05-12 23:53:06 DEBUG::msg: NULL
+ 2022-05-12 23:53:06 DEBUG::msg: 10
+ 2022-05-12 23:53:06 DEBUG::msg: list(heartbeat_interval = 41250, `_trace` = "[\"gateway-prd-main-dzjb\",{\"micros\":0.0}]")
+2022-05-12 23:53:06 DEBUG::handling hello
+2022-05-12 23:53:06 DEBUG::Sending payload on websocket
+2022-05-12 23:53:06 DEBUG::{"op":1,"d":"Null"}
+2022-05-12 23:53:06 DEBUG::first connection: so identify
+2022-05-12 23:53:06 DEBUG::sending indentify
+2022-05-12 23:53:06 DEBUG::private$intent: 512
+2022-05-12 23:53:06 DEBUG::Sending payload on websocket
+2022-05-12 23:53:06 DEBUG::{"op":2,"d":{"token":"OTc0Mzg1NjExMTYxMDc1NzEz.GJG0s5.8PejUjC8QKRbxS1tLEgbtpuwGTYFWVtihqnEz4","properties":{"$os":"Windows","$browser":"R","$device":"R"},"intents":512}}
+2022-05-12 23:53:07 DEBUG::Received message
+2022-05-12 23:53:07 DEBUG::msg: NULL
+ 2022-05-12 23:53:07 DEBUG::msg: NULL
+ 2022-05-12 23:53:07 DEBUG::msg: 11
+ 2022-05-12 23:53:07 DEBUG::msg: NULL
+2022-05-12 23:53:07 DEBUG::Received message
+2022-05-12 23:53:07 DEBUG::msg: READY
+ 2022-05-12 23:53:07 DEBUG::msg: 1
+ 2022-05-12 23:53:07 DEBUG::msg: 0
+ 2022-05-12 23:53:07 DEBUG::msg: list(v = 9, user_settings = list(), user = list(verified = TRUE, username = "Django", mfa_enabled = FALSE, id = "974385611161075713", flags = 0, email = NULL, discriminator = "6563", bot = TRUE, avatar = NULL), session_id = "a24a8502ad9a3b1f631dff30a9a27c0f", relationships = list(), private_channels = list(), presences = list(), guilds = list(unavailable = c(TRUE, TRUE), id = c("546099563006787604", "721844860071706654")), guild_join_requests = list(), geo_ordered_rtc_regions = c("rotterdam", "milan", 
+"stockholm", "madrid", "st-pete"), application = list(id = "974385611161075713", flags = 262144), `_trace` = "[\"gateway-prd-main-dzjb\",{\"micros\":79510,\"calls\":[\"discord-sessions-green-prd-2-159\",{\"micros\":78596,\"calls\":[\"start_session\",{\"micros\":42168,\"calls\":[\"discord-api-699c846cd9-jw6tv\",{\"micros\":37766,\"calls\":[\"get_user\",{\"micros\":6561},\"add_authorized_ip\",{\"micros\":1325},\"get_guilds\",{\"micros\":9040},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":20293,\"calls\":[]}]}]}]")
+2022-05-12 23:53:07 DEBUG::about to handle event
+2022-05-12 23:53:09 DEBUG::Received message
+2022-05-12 23:53:09 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:53:09 DEBUG::msg: 2
+ 2022-05-12 23:53:09 DEBUG::msg: 0
+ 2022-05-12 23:53:09 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:53:09.280000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974429050346930176", mentions = list(), mention_roles = "974391049118179351", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2020-06-14T21:53:46+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974429048925216848", flags = 0, 
+    embeds = list(), edited_timestamp = NULL, content = "<@&974391049118179351> whats wrong with you", components = list(), channel_id = "721844860713435158", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "721844860071706654")
+2022-05-12 23:53:09 DEBUG::about to handle event
+2022-05-12 23:53:19 DEBUG::Received message
+2022-05-12 23:53:19 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:53:19 DEBUG::msg: 3
+ 2022-05-12 23:53:19 DEBUG::msg: 0
+ 2022-05-12 23:53:19 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:53:18.949000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974429090998124544", mentions = list(), mention_roles = "974391049118179351", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2020-06-14T21:53:46+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974429089479925850", flags = 0, 
+    embeds = list(), edited_timestamp = NULL, content = "<@&974391049118179351> whats wrong with you", components = list(), channel_id = "721844860713435158", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "721844860071706654")
+2022-05-12 23:53:19 DEBUG::about to handle event
+2022-05-12 23:53:42 WARNING::Client disconnected with code
+2022-05-12 23:53:45 DEBUG::Received message
+2022-05-12 23:53:45 DEBUG::msg: NULL
+ 2022-05-12 23:53:45 DEBUG::msg: NULL
+ 2022-05-12 23:53:45 DEBUG::msg: 10
+ 2022-05-12 23:53:45 DEBUG::msg: list(heartbeat_interval = 41250, `_trace` = "[\"gateway-prd-main-c6mv\",{\"micros\":0.0}]")
+2022-05-12 23:53:45 DEBUG::handling hello
+2022-05-12 23:53:45 DEBUG::Sending payload on websocket
+2022-05-12 23:53:45 DEBUG::{"op":1,"d":"Null"}
+2022-05-12 23:53:45 DEBUG::first connection: so identify
+2022-05-12 23:53:45 DEBUG::sending indentify
+2022-05-12 23:53:45 DEBUG::private$intent: 512
+2022-05-12 23:53:45 DEBUG::Sending payload on websocket
+2022-05-12 23:53:45 DEBUG::{"op":2,"d":{"token":"OTc0Mzg1NjExMTYxMDc1NzEz.GJG0s5.8PejUjC8QKRbxS1tLEgbtpuwGTYFWVtihqnEz4","properties":{"$os":"Windows","$browser":"R","$device":"R"},"intents":512}}
+2022-05-12 23:53:45 DEBUG::Received message
+2022-05-12 23:53:45 DEBUG::msg: NULL
+ 2022-05-12 23:53:45 DEBUG::msg: NULL
+ 2022-05-12 23:53:45 DEBUG::msg: 11
+ 2022-05-12 23:53:45 DEBUG::msg: NULL
+2022-05-12 23:53:45 DEBUG::Received message
+2022-05-12 23:53:45 DEBUG::msg: READY
+ 2022-05-12 23:53:45 DEBUG::msg: 1
+ 2022-05-12 23:53:45 DEBUG::msg: 0
+ 2022-05-12 23:53:45 DEBUG::msg: list(v = 9, user_settings = list(), user = list(verified = TRUE, username = "Django", mfa_enabled = FALSE, id = "974385611161075713", flags = 0, email = NULL, discriminator = "6563", bot = TRUE, avatar = NULL), session_id = "eb5b729beb67077af98123ede9bdc17a", relationships = list(), private_channels = list(), presences = list(), guilds = list(unavailable = c(TRUE, TRUE), id = c("546099563006787604", "721844860071706654")), guild_join_requests = list(), geo_ordered_rtc_regions = c("rotterdam", "milan", 
+"stockholm", "madrid", "st-pete"), application = list(id = "974385611161075713", flags = 262144), `_trace` = "[\"gateway-prd-main-c6mv\",{\"micros\":87368,\"calls\":[\"discord-sessions-green-prd-2-105\",{\"micros\":86121,\"calls\":[\"start_session\",{\"micros\":55891,\"calls\":[\"discord-api-699c846cd9-9nccx\",{\"micros\":50266,\"calls\":[\"get_user\",{\"micros\":8643},\"add_authorized_ip\",{\"micros\":1445},\"get_guilds\",{\"micros\":4584},\"coros_wait\",{\"micros\":2}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":27762,\"calls\":[]}]}]}]")
+2022-05-12 23:53:45 DEBUG::about to handle event
+2022-05-12 23:53:47 DEBUG::Sending payload on websocket
+2022-05-12 23:53:47 DEBUG::{"op":1,"d":3}
+2022-05-12 23:53:54 DEBUG::Received message
+2022-05-12 23:53:54 DEBUG::msg: NULL
+ 2022-05-12 23:53:54 DEBUG::msg: NULL
+ 2022-05-12 23:53:54 DEBUG::msg: 10
+ 2022-05-12 23:53:54 DEBUG::msg: list(heartbeat_interval = 41250, `_trace` = "[\"gateway-prd-main-3q0l\",{\"micros\":0.0}]")
+2022-05-12 23:53:54 DEBUG::handling hello
+2022-05-12 23:53:54 DEBUG::Sending payload on websocket
+2022-05-12 23:53:54 DEBUG::{"op":1,"d":1}
+2022-05-12 23:53:54 INFO::Resuming connection
+2022-05-12 23:53:54 DEBUG::Sending payload on websocket
+2022-05-12 23:53:54 DEBUG::{"op":6,"d":{"token":"OTc0Mzg1NjExMTYxMDc1NzEz.GJG0s5.8PejUjC8QKRbxS1tLEgbtpuwGTYFWVtihqnEz4","session_id":"eb5b729beb67077af98123ede9bdc17a","seq":1}}
+2022-05-12 23:53:54 DEBUG::Received message
+2022-05-12 23:53:54 DEBUG::msg: NULL
+ 2022-05-12 23:53:54 DEBUG::msg: NULL
+ 2022-05-12 23:53:54 DEBUG::msg: 11
+ 2022-05-12 23:53:54 DEBUG::msg: NULL
+2022-05-12 23:53:54 DEBUG::Received message
+2022-05-12 23:53:54 DEBUG::msg: RESUMED
+ 2022-05-12 23:53:54 DEBUG::msg: 2
+ 2022-05-12 23:53:54 DEBUG::msg: 0
+ 2022-05-12 23:53:54 DEBUG::msg: list(`_trace` = "[\"gateway-prd-main-3q0l\",{\"micros\":505,\"calls\":[\"discord-sessions-green-prd-2-105\",{\"micros\":23}]}]")
+2022-05-12 23:53:54 DEBUG::unhandled event
+2022-05-12 23:53:59 DEBUG::Received message
+2022-05-12 23:53:59 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:53:59 DEBUG::msg: 3
+ 2022-05-12 23:53:59 DEBUG::msg: 0
+ 2022-05-12 23:53:59 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:53:58.838000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974429257147088896", mentions = list(), mention_roles = "974391049118179351", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2020-06-14T21:53:46+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974429256786542623", flags = 0, 
+    embeds = list(), edited_timestamp = NULL, content = "<@&974391049118179351> whats wrong with you", components = list(), channel_id = "721844860713435158", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "721844860071706654")
+2022-05-12 23:53:59 DEBUG::about to handle event
+2022-05-12 23:54:26 DEBUG::Sending payload on websocket
+2022-05-12 23:54:26 DEBUG::{"op":1,"d":3}
+2022-05-12 23:54:27 DEBUG::Received message
+2022-05-12 23:54:27 DEBUG::msg: NULL
+ 2022-05-12 23:54:27 DEBUG::msg: NULL
+ 2022-05-12 23:54:27 DEBUG::msg: 11
+ 2022-05-12 23:54:27 DEBUG::msg: NULL
+2022-05-12 23:54:27 WARNING::Client disconnected with code
+2022-05-12 23:54:31 DEBUG::Received message
+2022-05-12 23:54:31 DEBUG::msg: NULL
+ 2022-05-12 23:54:31 DEBUG::msg: NULL
+ 2022-05-12 23:54:31 DEBUG::msg: 9
+ 2022-05-12 23:54:31 DEBUG::msg: FALSE
+2022-05-12 23:54:31 DEBUG::Handling invalid session
+2022-05-12 23:54:31 DEBUG::sending indentify
+2022-05-12 23:54:31 DEBUG::private$intent: 512
+2022-05-12 23:54:31 DEBUG::Sending payload on websocket
+2022-05-12 23:54:31 DEBUG::{"op":2,"d":{"token":"OTc0Mzg1NjExMTYxMDc1NzEz.GJG0s5.8PejUjC8QKRbxS1tLEgbtpuwGTYFWVtihqnEz4","properties":{"$os":"Windows","$browser":"R","$device":"R"},"intents":512}}
+2022-05-12 23:54:32 DEBUG::Received message
+2022-05-12 23:54:32 DEBUG::msg: NULL
+ 2022-05-12 23:54:32 DEBUG::msg: NULL
+ 2022-05-12 23:54:32 DEBUG::msg: 10
+ 2022-05-12 23:54:32 DEBUG::msg: list(heartbeat_interval = 41250, `_trace` = "[\"gateway-prd-main-j3cn\",{\"micros\":0.0}]")
+2022-05-12 23:54:32 DEBUG::handling hello
+2022-05-12 23:54:32 DEBUG::Sending payload on websocket
+2022-05-12 23:54:32 DEBUG::{"op":1,"d":"Null"}
+2022-05-12 23:54:32 DEBUG::first connection: so identify
+2022-05-12 23:54:32 DEBUG::sending indentify
+2022-05-12 23:54:32 DEBUG::private$intent: 512
+2022-05-12 23:54:32 DEBUG::Sending payload on websocket
+2022-05-12 23:54:32 DEBUG::{"op":2,"d":{"token":"OTc0Mzg1NjExMTYxMDc1NzEz.GJG0s5.8PejUjC8QKRbxS1tLEgbtpuwGTYFWVtihqnEz4","properties":{"$os":"Windows","$browser":"R","$device":"R"},"intents":512}}
+2022-05-12 23:54:33 DEBUG::Received message
+2022-05-12 23:54:33 DEBUG::msg: NULL
+ 2022-05-12 23:54:33 DEBUG::msg: NULL
+ 2022-05-12 23:54:33 DEBUG::msg: 11
+ 2022-05-12 23:54:33 DEBUG::msg: NULL
+2022-05-12 23:54:33 DEBUG::Received message
+2022-05-12 23:54:33 DEBUG::msg: READY
+ 2022-05-12 23:54:33 DEBUG::msg: 1
+ 2022-05-12 23:54:33 DEBUG::msg: 0
+ 2022-05-12 23:54:33 DEBUG::msg: list(v = 9, user_settings = list(), user = list(verified = TRUE, username = "Django", mfa_enabled = FALSE, id = "974385611161075713", flags = 0, email = NULL, discriminator = "6563", bot = TRUE, avatar = NULL), session_id = "b9d9d747cb164f33a477b39e13bbcb1a", relationships = list(), private_channels = list(), presences = list(), guilds = list(unavailable = c(TRUE, TRUE), id = c("546099563006787604", "721844860071706654")), guild_join_requests = list(), geo_ordered_rtc_regions = c("rotterdam", "milan", 
+"stockholm", "madrid", "st-pete"), application = list(id = "974385611161075713", flags = 262144), `_trace` = "[\"gateway-prd-main-j3cn\",{\"micros\":119891,\"calls\":[\"discord-sessions-green-prd-2-73\",{\"micros\":116724,\"calls\":[\"start_session\",{\"micros\":46281,\"calls\":[\"discord-api-699c846cd9-p722n\",{\"micros\":40090,\"calls\":[\"get_user\",{\"micros\":7869},\"add_authorized_ip\",{\"micros\":3634},\"get_guilds\",{\"micros\":5510},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":28918,\"calls\":[]}]}]}]")
+2022-05-12 23:54:33 DEBUG::about to handle event
+2022-05-12 23:54:35 DEBUG::Sending payload on websocket
+2022-05-12 23:54:35 DEBUG::{"op":1,"d":3}
+2022-05-12 23:54:40 WARNING::Client disconnected with code
+2022-05-12 23:54:49 DEBUG::Received message
+2022-05-12 23:54:49 DEBUG::msg: NULL
+ 2022-05-12 23:54:49 DEBUG::msg: NULL
+ 2022-05-12 23:54:49 DEBUG::msg: 10
+ 2022-05-12 23:54:49 DEBUG::msg: list(heartbeat_interval = 41250, `_trace` = "[\"gateway-prd-main-68nx\",{\"micros\":0.0}]")
+2022-05-12 23:54:49 DEBUG::handling hello
+2022-05-12 23:54:49 DEBUG::Sending payload on websocket
+2022-05-12 23:54:49 DEBUG::{"op":1,"d":"Null"}
+2022-05-12 23:54:49 DEBUG::first connection: so identify
+2022-05-12 23:54:49 DEBUG::sending indentify
+2022-05-12 23:54:49 DEBUG::private$intent: 512
+2022-05-12 23:54:49 DEBUG::Sending payload on websocket
+2022-05-12 23:54:49 DEBUG::{"op":2,"d":{"token":"OTc0Mzg1NjExMTYxMDc1NzEz.GJG0s5.8PejUjC8QKRbxS1tLEgbtpuwGTYFWVtihqnEz4","properties":{"$os":"Windows","$browser":"R","$device":"R"},"intents":512}}
+2022-05-12 23:54:50 DEBUG::Received message
+2022-05-12 23:54:50 DEBUG::msg: NULL
+ 2022-05-12 23:54:50 DEBUG::msg: NULL
+ 2022-05-12 23:54:50 DEBUG::msg: 11
+ 2022-05-12 23:54:50 DEBUG::msg: NULL
+2022-05-12 23:54:50 DEBUG::Received message
+2022-05-12 23:54:50 DEBUG::msg: READY
+ 2022-05-12 23:54:50 DEBUG::msg: 1
+ 2022-05-12 23:54:50 DEBUG::msg: 0
+ 2022-05-12 23:54:50 DEBUG::msg: list(v = 9, user_settings = list(), user = list(verified = TRUE, username = "Django", mfa_enabled = FALSE, id = "974385611161075713", flags = 0, email = NULL, discriminator = "6563", bot = TRUE, avatar = NULL), session_id = "93e89411c1a4ad737203870901022448", relationships = list(), private_channels = list(), presences = list(), guilds = list(unavailable = c(TRUE, TRUE), id = c("546099563006787604", "721844860071706654")), guild_join_requests = list(), geo_ordered_rtc_regions = c("rotterdam", "milan", 
+"stockholm", "madrid", "st-pete"), application = list(id = "974385611161075713", flags = 262144), `_trace` = "[\"gateway-prd-main-68nx\",{\"micros\":92158,\"calls\":[\"discord-sessions-green-prd-2-175\",{\"micros\":89977,\"calls\":[\"start_session\",{\"micros\":45292,\"calls\":[\"discord-api-699c846cd9-ljz82\",{\"micros\":33125,\"calls\":[\"get_user\",{\"micros\":8393},\"add_authorized_ip\",{\"micros\":1227},\"get_guilds\",{\"micros\":4011},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":2,\"calls\":[]}]}]}]")
+2022-05-12 23:54:50 DEBUG::about to handle event
+2022-05-12 23:54:58 DEBUG::Received message
+2022-05-12 23:54:58 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:54:58 DEBUG::msg: 2
+ 2022-05-12 23:54:58 DEBUG::msg: 0
+ 2022-05-12 23:54:58 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:54:58.021000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974429506485878784", mentions = list(), mention_roles = "974391049118179351", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2020-06-14T21:53:46+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974429505018036264", flags = 0, 
+    embeds = list(), edited_timestamp = NULL, content = "<@&974391049118179351> whats wrong with you", components = list(), channel_id = "721844860713435158", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "721844860071706654")
+2022-05-12 23:54:58 DEBUG::about to handle event
+2022-05-12 23:55:00 DEBUG::Received message
+2022-05-12 23:55:00 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:55:00 DEBUG::msg: 2
+ 2022-05-12 23:55:00 DEBUG::msg: 0
+ 2022-05-12 23:55:00 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:54:58.021000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974429506485878784", mentions = list(), mention_roles = "974391049118179351", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2020-06-14T21:53:46+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974429505018036264", flags = 0, 
+    embeds = list(), edited_timestamp = NULL, content = "<@&974391049118179351> whats wrong with you", components = list(), channel_id = "721844860713435158", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "721844860071706654")
+2022-05-12 23:55:00 DEBUG::about to handle event
+2022-05-12 23:55:03 DEBUG::Received message
+2022-05-12 23:55:03 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:55:03 DEBUG::msg: 3
+ 2022-05-12 23:55:03 DEBUG::msg: 0
+ 2022-05-12 23:55:03 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:55:00.206000+00:00", referenced_message = NULL, pinned = FALSE, mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = "974391049118179351", premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2022-05-12T19:22:09.478830+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974429514182570045", flags = 0, embeds = list(), edited_timestamp = NULL, 
+    content = "guys?\n\nI don't know.", components = list(), channel_id = "721844860713435158", author = list(username = "Django", public_flags = 0, id = "974385611161075713", discriminator = "6563", bot = TRUE, avatar_decoration = NULL, avatar = NULL), attachments = list(), guild_id = "721844860071706654")
+2022-05-12 23:55:03 DEBUG::about to handle event
+2022-05-12 23:55:03 DEBUG::Received message
+2022-05-12 23:55:03 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:55:03 DEBUG::msg: 3
+ 2022-05-12 23:55:03 DEBUG::msg: 0
+ 2022-05-12 23:55:03 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:55:00.206000+00:00", referenced_message = NULL, pinned = FALSE, mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = "974391049118179351", premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2022-05-12T19:22:09.478830+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974429514182570045", flags = 0, embeds = list(), edited_timestamp = NULL, 
+    content = "guys?\n\nI don't know.", components = list(), channel_id = "721844860713435158", author = list(username = "Django", public_flags = 0, id = "974385611161075713", discriminator = "6563", bot = TRUE, avatar_decoration = NULL, avatar = NULL), attachments = list(), guild_id = "721844860071706654")
+2022-05-12 23:55:03 DEBUG::about to handle event
+2022-05-12 23:55:03 DEBUG::Received message
+2022-05-12 23:55:03 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:55:03 DEBUG::msg: 4
+ 2022-05-12 23:55:03 DEBUG::msg: 0
+ 2022-05-12 23:55:03 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:55:03.077000+00:00", referenced_message = NULL, pinned = FALSE, mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = "974391049118179351", premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2022-05-12T19:22:09.478830+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974429526224420934", flags = 0, embeds = list(), edited_timestamp = NULL, 
+    content = "guys\n\nThere could be many things wrong with someone, but it's hard to say without knowing more about the person. Some possibilities include mental illness, substance abuse, financial problems, or relationship issues.", components = list(), channel_id = "721844860713435158", author = list(username = "Django", public_flags = 0, id = "974385611161075713", discriminator = "6563", bot = TRUE, avatar_decoration = NULL, avatar = NULL), attachments = list(), guild_id = "721844860071706654")
+2022-05-12 23:55:03 DEBUG::about to handle event
+2022-05-12 23:55:03 DEBUG::Received message
+2022-05-12 23:55:03 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:55:03 DEBUG::msg: 4
+ 2022-05-12 23:55:03 DEBUG::msg: 0
+ 2022-05-12 23:55:03 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:55:03.077000+00:00", referenced_message = NULL, pinned = FALSE, mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = "974391049118179351", premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2022-05-12T19:22:09.478830+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974429526224420934", flags = 0, embeds = list(), edited_timestamp = NULL, 
+    content = "guys\n\nThere could be many things wrong with someone, but it's hard to say without knowing more about the person. Some possibilities include mental illness, substance abuse, financial problems, or relationship issues.", components = list(), channel_id = "721844860713435158", author = list(username = "Django", public_flags = 0, id = "974385611161075713", discriminator = "6563", bot = TRUE, avatar_decoration = NULL, avatar = NULL), attachments = list(), guild_id = "721844860071706654")
+2022-05-12 23:55:03 DEBUG::about to handle event
+2022-05-12 23:55:08 DEBUG::Sending payload on websocket
+2022-05-12 23:55:08 DEBUG::{"op":1,"d":3}
+2022-05-12 23:55:13 DEBUG::Sending payload on websocket
+2022-05-12 23:55:13 DEBUG::{"op":1,"d":4}
+2022-05-12 23:55:14 DEBUG::Received message
+2022-05-12 23:55:14 DEBUG::msg: NULL
+ 2022-05-12 23:55:14 DEBUG::msg: NULL
+ 2022-05-12 23:55:14 DEBUG::msg: 11
+ 2022-05-12 23:55:14 DEBUG::msg: NULL
+2022-05-12 23:55:28 DEBUG::Received message
+2022-05-12 23:55:28 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:55:28 DEBUG::msg: 5
+ 2022-05-12 23:55:28 DEBUG::msg: 0
+ 2022-05-12 23:55:28 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:55:28.129000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974429632809926656", mentions = list(), mention_roles = "974420601810853931", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2021-02-15T17:44:04.844000+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974429631300112424", 
+    flags = 0, embeds = list(), edited_timestamp = NULL, content = "<@&974420601810853931> why did the chicken cross the road?", components = list(), channel_id = "546099563006787607", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "546099563006787604")
+2022-05-12 23:55:28 DEBUG::about to handle event
+2022-05-12 23:55:28 DEBUG::Received message
+2022-05-12 23:55:28 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:55:28 DEBUG::msg: 5
+ 2022-05-12 23:55:28 DEBUG::msg: 0
+ 2022-05-12 23:55:28 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:55:28.129000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974429632809926656", mentions = list(), mention_roles = "974420601810853931", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2021-02-15T17:44:04.844000+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974429631300112424", 
+    flags = 0, embeds = list(), edited_timestamp = NULL, content = "<@&974420601810853931> why did the chicken cross the road?", components = list(), channel_id = "546099563006787607", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "546099563006787604")
+2022-05-12 23:55:28 DEBUG::about to handle event
+2022-05-12 23:55:30 DEBUG::Sending payload on websocket
+2022-05-12 23:55:30 DEBUG::{"op":1,"d":5}
+2022-05-12 23:55:30 DEBUG::Received message
+2022-05-12 23:55:30 DEBUG::msg: NULL
+ 2022-05-12 23:55:30 DEBUG::msg: NULL
+ 2022-05-12 23:55:30 DEBUG::msg: 11
+ 2022-05-12 23:55:30 DEBUG::msg: NULL
+2022-05-12 23:55:55 DEBUG::Sending payload on websocket
+2022-05-12 23:55:55 DEBUG::{"op":1,"d":5}
+2022-05-12 23:55:55 DEBUG::Received message
+2022-05-12 23:55:55 DEBUG::msg: NULL
+ 2022-05-12 23:55:55 DEBUG::msg: NULL
+ 2022-05-12 23:55:55 DEBUG::msg: 11
+ 2022-05-12 23:55:55 DEBUG::msg: NULL
+2022-05-12 23:56:12 DEBUG::Sending payload on websocket
+2022-05-12 23:56:12 DEBUG::{"op":1,"d":5}
+2022-05-12 23:56:12 DEBUG::Received message
+2022-05-12 23:56:12 DEBUG::msg: NULL
+ 2022-05-12 23:56:12 DEBUG::msg: NULL
+ 2022-05-12 23:56:12 DEBUG::msg: 11
+ 2022-05-12 23:56:12 DEBUG::msg: NULL
+2022-05-12 23:56:36 DEBUG::Sending payload on websocket
+2022-05-12 23:56:36 DEBUG::{"op":1,"d":5}
+2022-05-12 23:56:36 DEBUG::Received message
+2022-05-12 23:56:36 DEBUG::msg: NULL
+ 2022-05-12 23:56:36 DEBUG::msg: NULL
+ 2022-05-12 23:56:36 DEBUG::msg: 11
+ 2022-05-12 23:56:36 DEBUG::msg: NULL
+2022-05-12 23:56:53 DEBUG::Sending payload on websocket
+2022-05-12 23:56:53 DEBUG::{"op":1,"d":5}
+2022-05-12 23:56:53 DEBUG::Received message
+2022-05-12 23:56:53 DEBUG::msg: NULL
+ 2022-05-12 23:56:53 DEBUG::msg: NULL
+ 2022-05-12 23:56:53 DEBUG::msg: 11
+ 2022-05-12 23:56:53 DEBUG::msg: NULL
+2022-05-12 23:57:17 DEBUG::Sending payload on websocket
+2022-05-12 23:57:17 DEBUG::{"op":1,"d":5}
+2022-05-12 23:57:17 DEBUG::Received message
+2022-05-12 23:57:17 DEBUG::msg: NULL
+ 2022-05-12 23:57:17 DEBUG::msg: NULL
+ 2022-05-12 23:57:17 DEBUG::msg: 11
+ 2022-05-12 23:57:17 DEBUG::msg: NULL
+2022-05-12 23:57:34 DEBUG::Sending payload on websocket
+2022-05-12 23:57:34 DEBUG::{"op":1,"d":5}
+2022-05-12 23:57:34 DEBUG::Received message
+2022-05-12 23:57:34 DEBUG::msg: NULL
+ 2022-05-12 23:57:34 DEBUG::msg: NULL
+ 2022-05-12 23:57:34 DEBUG::msg: 11
+ 2022-05-12 23:57:34 DEBUG::msg: NULL
+2022-05-12 23:57:59 DEBUG::Sending payload on websocket
+2022-05-12 23:57:59 DEBUG::{"op":1,"d":5}
+2022-05-12 23:57:59 DEBUG::Received message
+2022-05-12 23:57:59 DEBUG::msg: NULL
+ 2022-05-12 23:57:59 DEBUG::msg: NULL
+ 2022-05-12 23:57:59 DEBUG::msg: 11
+ 2022-05-12 23:57:59 DEBUG::msg: NULL
+2022-05-12 23:58:16 DEBUG::Sending payload on websocket
+2022-05-12 23:58:16 DEBUG::{"op":1,"d":5}
+2022-05-12 23:58:16 DEBUG::Received message
+2022-05-12 23:58:16 DEBUG::msg: NULL
+ 2022-05-12 23:58:16 DEBUG::msg: NULL
+ 2022-05-12 23:58:16 DEBUG::msg: 11
+ 2022-05-12 23:58:16 DEBUG::msg: NULL
+2022-05-12 23:58:36 WARNING::Client disconnected with code
+2022-05-12 23:58:39 DEBUG::Received message
+2022-05-12 23:58:39 DEBUG::msg: NULL
+ 2022-05-12 23:58:39 DEBUG::msg: NULL
+ 2022-05-12 23:58:39 DEBUG::msg: 10
+ 2022-05-12 23:58:39 DEBUG::msg: list(heartbeat_interval = 41250, `_trace` = "[\"gateway-prd-main-109w\",{\"micros\":0.0}]")
+2022-05-12 23:58:39 DEBUG::handling hello
+2022-05-12 23:58:39 DEBUG::Sending payload on websocket
+2022-05-12 23:58:39 DEBUG::{"op":1,"d":"Null"}
+2022-05-12 23:58:39 DEBUG::first connection: so identify
+2022-05-12 23:58:39 DEBUG::sending indentify
+2022-05-12 23:58:39 DEBUG::private$intent: 512
+2022-05-12 23:58:39 DEBUG::Sending payload on websocket
+2022-05-12 23:58:39 DEBUG::{"op":2,"d":{"token":"OTc0Mzg1NjExMTYxMDc1NzEz.GJG0s5.8PejUjC8QKRbxS1tLEgbtpuwGTYFWVtihqnEz4","properties":{"$os":"Windows","$browser":"R","$device":"R"},"intents":512}}
+2022-05-12 23:58:40 DEBUG::Received message
+2022-05-12 23:58:40 DEBUG::msg: NULL
+ 2022-05-12 23:58:40 DEBUG::msg: NULL
+ 2022-05-12 23:58:40 DEBUG::msg: 11
+ 2022-05-12 23:58:40 DEBUG::msg: NULL
+2022-05-12 23:58:40 DEBUG::Received message
+2022-05-12 23:58:40 DEBUG::msg: READY
+ 2022-05-12 23:58:40 DEBUG::msg: 1
+ 2022-05-12 23:58:40 DEBUG::msg: 0
+ 2022-05-12 23:58:40 DEBUG::msg: list(v = 9, user_settings = list(), user = list(verified = TRUE, username = "Django", mfa_enabled = FALSE, id = "974385611161075713", flags = 0, email = NULL, discriminator = "6563", bot = TRUE, avatar = NULL), session_id = "569d82a87ebf133a4cd5c9172fb93ff9", relationships = list(), private_channels = list(), presences = list(), guilds = list(unavailable = c(TRUE, TRUE), id = c("546099563006787604", "721844860071706654")), guild_join_requests = list(), geo_ordered_rtc_regions = c("rotterdam", "milan", 
+"stockholm", "madrid", "st-pete"), application = list(id = "974385611161075713", flags = 262144), `_trace` = "[\"gateway-prd-main-109w\",{\"micros\":131257,\"calls\":[\"discord-sessions-green-prd-2-144\",{\"micros\":127116,\"calls\":[\"start_session\",{\"micros\":65385,\"calls\":[\"discord-api-699c846cd9-6gg9n\",{\"micros\":59978,\"calls\":[\"get_user\",{\"micros\":20500},\"add_authorized_ip\",{\"micros\":2466},\"get_guilds\",{\"micros\":10922},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":32661,\"calls\":[]}]}]}]")
+2022-05-12 23:58:40 DEBUG::about to handle event
+2022-05-12 23:58:40 DEBUG::Sending payload on websocket
+2022-05-12 23:58:40 DEBUG::{"op":1,"d":5}
+2022-05-12 23:58:40 DEBUG::Received message
+2022-05-12 23:58:40 DEBUG::msg: NULL
+ 2022-05-12 23:58:40 DEBUG::msg: NULL
+ 2022-05-12 23:58:40 DEBUG::msg: 11
+ 2022-05-12 23:58:40 DEBUG::msg: NULL
+2022-05-12 23:58:49 DEBUG::Received message
+2022-05-12 23:58:49 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:58:49 DEBUG::msg: 2
+ 2022-05-12 23:58:49 DEBUG::msg: 0
+ 2022-05-12 23:58:49 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:58:48.509000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974430473222619136", mentions = list(), mention_roles = "974420601810853931", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2021-02-15T17:44:04.844000+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974430471754747944", 
+    flags = 0, embeds = list(), edited_timestamp = NULL, content = "<@&974420601810853931> why did the chicken cross the road?", components = list(), channel_id = "546099563006787607", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "546099563006787604")
+2022-05-12 23:58:49 DEBUG::about to handle event
+2022-05-12 23:58:51 DEBUG::Received message
+2022-05-12 23:58:51 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:58:51 DEBUG::msg: 6
+ 2022-05-12 23:58:51 DEBUG::msg: 0
+ 2022-05-12 23:58:51 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:58:48.509000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974430473222619136", mentions = list(), mention_roles = "974420601810853931", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2021-02-15T17:44:04.844000+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974430471754747944", 
+    flags = 0, embeds = list(), edited_timestamp = NULL, content = "<@&974420601810853931> why did the chicken cross the road?", components = list(), channel_id = "546099563006787607", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "546099563006787604")
+2022-05-12 23:58:51 DEBUG::about to handle event
+2022-05-12 23:58:51 DEBUG::Received message
+2022-05-12 23:58:51 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:58:51 DEBUG::msg: 7
+ 2022-05-12 23:58:51 DEBUG::msg: 0
+ 2022-05-12 23:58:51 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:58:50.649000+00:00", referenced_message = NULL, pinned = FALSE, mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = "974420601810853931", premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2022-05-12T21:19:35.387671+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974430480730578944", flags = 0, embeds = list(), edited_timestamp = NULL, 
+    content = "To get to the other side.", components = list(), channel_id = "546099563006787607", author = list(username = "Django", public_flags = 0, id = "974385611161075713", discriminator = "6563", bot = TRUE, avatar_decoration = NULL, avatar = NULL), attachments = list(), guild_id = "546099563006787604")
+2022-05-12 23:58:51 DEBUG::about to handle event
+2022-05-12 23:58:51 DEBUG::Received message
+2022-05-12 23:58:51 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:58:51 DEBUG::msg: 3
+ 2022-05-12 23:58:51 DEBUG::msg: 0
+ 2022-05-12 23:58:51 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:58:50.649000+00:00", referenced_message = NULL, pinned = FALSE, mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = "974420601810853931", premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2022-05-12T21:19:35.387671+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974430480730578944", flags = 0, embeds = list(), edited_timestamp = NULL, 
+    content = "To get to the other side.", components = list(), channel_id = "546099563006787607", author = list(username = "Django", public_flags = 0, id = "974385611161075713", discriminator = "6563", bot = TRUE, avatar_decoration = NULL, avatar = NULL), attachments = list(), guild_id = "546099563006787604")
+2022-05-12 23:58:51 DEBUG::about to handle event
+2022-05-12 23:58:57 DEBUG::Sending payload on websocket
+2022-05-12 23:58:57 DEBUG::{"op":1,"d":5}
+2022-05-12 23:59:16 DEBUG::Received message
+2022-05-12 23:59:16 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:59:16 DEBUG::msg: 4
+ 2022-05-12 23:59:16 DEBUG::msg: 0
+ 2022-05-12 23:59:16 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:59:15.932000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974430588456927232", mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2021-02-15T17:44:04.844000+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974430586775162891", flags = 0, embeds = list(), 
+    edited_timestamp = NULL, content = "irgendwie ändert sich die ID von dem Bot manchmal", components = list(), channel_id = "546099563006787607", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "546099563006787604")
+2022-05-12 23:59:16 DEBUG::about to handle event
+2022-05-12 23:59:16 DEBUG::Received message
+2022-05-12 23:59:16 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-12 23:59:16 DEBUG::msg: 8
+ 2022-05-12 23:59:16 DEBUG::msg: 0
+ 2022-05-12 23:59:16 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T21:59:15.932000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974430588456927232", mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2021-02-15T17:44:04.844000+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974430586775162891", flags = 0, embeds = list(), 
+    edited_timestamp = NULL, content = "irgendwie ändert sich die ID von dem Bot manchmal", components = list(), channel_id = "546099563006787607", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "546099563006787604")
+2022-05-12 23:59:16 DEBUG::about to handle event
+2022-05-12 23:59:21 DEBUG::Sending payload on websocket
+2022-05-12 23:59:21 DEBUG::{"op":1,"d":4}
+2022-05-12 23:59:21 DEBUG::Received message
+2022-05-12 23:59:21 DEBUG::msg: NULL
+ 2022-05-12 23:59:21 DEBUG::msg: NULL
+ 2022-05-12 23:59:21 DEBUG::msg: 11
+ 2022-05-12 23:59:21 DEBUG::msg: NULL
+2022-05-12 23:59:21 DEBUG::Sending payload on websocket
+2022-05-12 23:59:21 DEBUG::{"op":1,"d":8}
+2022-05-12 23:59:22 DEBUG::Received message
+2022-05-12 23:59:22 DEBUG::msg: NULL
+ 2022-05-12 23:59:22 DEBUG::msg: NULL
+ 2022-05-12 23:59:22 DEBUG::msg: 11
+ 2022-05-12 23:59:22 DEBUG::msg: NULL
+2022-05-13 00:00:02 DEBUG::Sending payload on websocket
+2022-05-13 00:00:02 DEBUG::{"op":1,"d":4}
+2022-05-13 00:00:02 DEBUG::Received message
+2022-05-13 00:00:02 DEBUG::msg: NULL
+ 2022-05-13 00:00:02 DEBUG::msg: NULL
+ 2022-05-13 00:00:02 DEBUG::msg: 11
+ 2022-05-13 00:00:02 DEBUG::msg: NULL
+2022-05-13 00:00:03 DEBUG::Sending payload on websocket
+2022-05-13 00:00:03 DEBUG::{"op":1,"d":8}
+2022-05-13 00:00:03 DEBUG::Received message
+2022-05-13 00:00:03 DEBUG::msg: NULL
+ 2022-05-13 00:00:03 DEBUG::msg: NULL
+ 2022-05-13 00:00:03 DEBUG::msg: 11
+ 2022-05-13 00:00:03 DEBUG::msg: NULL
+2022-05-13 00:00:43 DEBUG::Sending payload on websocket
+2022-05-13 00:00:43 DEBUG::{"op":1,"d":4}
+2022-05-13 00:00:43 DEBUG::Received message
+2022-05-13 00:00:43 DEBUG::msg: NULL
+ 2022-05-13 00:00:43 DEBUG::msg: NULL
+ 2022-05-13 00:00:43 DEBUG::msg: 11
+ 2022-05-13 00:00:43 DEBUG::msg: NULL
+2022-05-13 00:00:44 DEBUG::Sending payload on websocket
+2022-05-13 00:00:44 DEBUG::{"op":1,"d":8}
+2022-05-13 00:00:44 DEBUG::Received message
+2022-05-13 00:00:44 DEBUG::msg: NULL
+ 2022-05-13 00:00:44 DEBUG::msg: NULL
+ 2022-05-13 00:00:44 DEBUG::msg: 11
+ 2022-05-13 00:00:44 DEBUG::msg: NULL
+2022-05-13 00:01:24 DEBUG::Sending payload on websocket
+2022-05-13 00:01:24 DEBUG::{"op":1,"d":4}
+2022-05-13 00:01:25 DEBUG::Received message
+2022-05-13 00:01:25 DEBUG::msg: NULL
+ 2022-05-13 00:01:25 DEBUG::msg: NULL
+ 2022-05-13 00:01:25 DEBUG::msg: 11
+ 2022-05-13 00:01:25 DEBUG::msg: NULL
+2022-05-13 00:01:25 DEBUG::Sending payload on websocket
+2022-05-13 00:01:25 DEBUG::{"op":1,"d":8}
+2022-05-13 00:01:25 DEBUG::Received message
+2022-05-13 00:01:25 DEBUG::msg: NULL
+ 2022-05-13 00:01:25 DEBUG::msg: NULL
+ 2022-05-13 00:01:25 DEBUG::msg: 11
+ 2022-05-13 00:01:25 DEBUG::msg: NULL
+2022-05-13 00:02:06 DEBUG::Sending payload on websocket
+2022-05-13 00:02:06 DEBUG::{"op":1,"d":4}
+2022-05-13 00:02:06 DEBUG::Received message
+2022-05-13 00:02:06 DEBUG::msg: NULL
+ 2022-05-13 00:02:06 DEBUG::msg: NULL
+ 2022-05-13 00:02:06 DEBUG::msg: 11
+ 2022-05-13 00:02:06 DEBUG::msg: NULL
+2022-05-13 00:02:06 DEBUG::Sending payload on websocket
+2022-05-13 00:02:06 DEBUG::{"op":1,"d":8}
+2022-05-13 00:02:07 DEBUG::Received message
+2022-05-13 00:02:07 DEBUG::msg: NULL
+ 2022-05-13 00:02:07 DEBUG::msg: NULL
+ 2022-05-13 00:02:07 DEBUG::msg: 11
+ 2022-05-13 00:02:07 DEBUG::msg: NULL
+2022-05-13 00:02:47 DEBUG::Sending payload on websocket
+2022-05-13 00:02:47 DEBUG::{"op":1,"d":4}
+2022-05-13 00:02:47 DEBUG::Received message
+2022-05-13 00:02:47 DEBUG::msg: NULL
+ 2022-05-13 00:02:47 DEBUG::msg: NULL
+ 2022-05-13 00:02:47 DEBUG::msg: 11
+ 2022-05-13 00:02:47 DEBUG::msg: NULL
+2022-05-13 00:02:48 DEBUG::Sending payload on websocket
+2022-05-13 00:02:48 DEBUG::{"op":1,"d":8}
+2022-05-13 00:02:48 DEBUG::Received message
+2022-05-13 00:02:48 DEBUG::msg: NULL
+ 2022-05-13 00:02:48 DEBUG::msg: NULL
+ 2022-05-13 00:02:48 DEBUG::msg: 11
+ 2022-05-13 00:02:48 DEBUG::msg: NULL
+2022-05-13 00:03:28 DEBUG::Sending payload on websocket
+2022-05-13 00:03:28 DEBUG::{"op":1,"d":4}
+2022-05-13 00:03:29 DEBUG::Received message
+2022-05-13 00:03:29 DEBUG::msg: NULL
+ 2022-05-13 00:03:29 DEBUG::msg: NULL
+ 2022-05-13 00:03:29 DEBUG::msg: 11
+ 2022-05-13 00:03:29 DEBUG::msg: NULL
+2022-05-13 00:03:29 DEBUG::Sending payload on websocket
+2022-05-13 00:03:29 DEBUG::{"op":1,"d":8}
+2022-05-13 00:03:29 DEBUG::Received message
+2022-05-13 00:03:29 DEBUG::msg: NULL
+ 2022-05-13 00:03:29 DEBUG::msg: NULL
+ 2022-05-13 00:03:29 DEBUG::msg: 11
+ 2022-05-13 00:03:29 DEBUG::msg: NULL
+2022-05-13 00:04:10 DEBUG::Sending payload on websocket
+2022-05-13 00:04:10 DEBUG::{"op":1,"d":4}
+2022-05-13 00:04:10 DEBUG::Received message
+2022-05-13 00:04:10 DEBUG::msg: NULL
+ 2022-05-13 00:04:10 DEBUG::msg: NULL
+ 2022-05-13 00:04:10 DEBUG::msg: 11
+ 2022-05-13 00:04:10 DEBUG::msg: NULL
+2022-05-13 00:04:10 DEBUG::Sending payload on websocket
+2022-05-13 00:04:10 DEBUG::{"op":1,"d":8}
+2022-05-13 00:04:11 DEBUG::Received message
+2022-05-13 00:04:11 DEBUG::msg: NULL
+ 2022-05-13 00:04:11 DEBUG::msg: NULL
+ 2022-05-13 00:04:11 DEBUG::msg: 11
+ 2022-05-13 00:04:11 DEBUG::msg: NULL
+2022-05-13 00:04:51 DEBUG::Sending payload on websocket
+2022-05-13 00:04:51 DEBUG::{"op":1,"d":4}
+2022-05-13 00:04:51 DEBUG::Received message
+2022-05-13 00:04:51 DEBUG::msg: NULL
+ 2022-05-13 00:04:51 DEBUG::msg: NULL
+ 2022-05-13 00:04:51 DEBUG::msg: 11
+ 2022-05-13 00:04:51 DEBUG::msg: NULL
+2022-05-13 00:04:52 DEBUG::Sending payload on websocket
+2022-05-13 00:04:52 DEBUG::{"op":1,"d":8}
+2022-05-13 00:04:52 DEBUG::Received message
+2022-05-13 00:04:52 DEBUG::msg: NULL
+ 2022-05-13 00:04:52 DEBUG::msg: NULL
+ 2022-05-13 00:04:52 DEBUG::msg: 11
+ 2022-05-13 00:04:52 DEBUG::msg: NULL
+2022-05-13 00:05:01 DEBUG::Received message
+2022-05-13 00:05:01 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-13 00:05:01 DEBUG::msg: 9
+ 2022-05-13 00:05:01 DEBUG::msg: 0
+ 2022-05-13 00:05:01 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T22:05:00.947000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974432035168845824", mentions = list(), mention_roles = "974420601810853931", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2021-02-15T17:44:04.844000+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974432033872961536", 
+    flags = 0, embeds = list(), edited_timestamp = NULL, content = "<@&974420601810853931> why did the chicken cross the road?", components = list(), channel_id = "546099563006787607", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "546099563006787604")
+2022-05-13 00:05:01 DEBUG::about to handle event
+2022-05-13 00:05:01 DEBUG::Received message
+2022-05-13 00:05:01 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-13 00:05:01 DEBUG::msg: 5
+ 2022-05-13 00:05:01 DEBUG::msg: 0
+ 2022-05-13 00:05:01 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T22:05:00.947000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974432035168845824", mentions = list(), mention_roles = "974420601810853931", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2021-02-15T17:44:04.844000+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974432033872961536", 
+    flags = 0, embeds = list(), edited_timestamp = NULL, content = "<@&974420601810853931> why did the chicken cross the road?", components = list(), channel_id = "546099563006787607", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "546099563006787604")
+2022-05-13 00:05:01 DEBUG::about to handle event
+2022-05-13 00:05:04 DEBUG::Received message
+2022-05-13 00:05:04 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-13 00:05:04 DEBUG::msg: 6
+ 2022-05-13 00:05:04 DEBUG::msg: 0
+ 2022-05-13 00:05:04 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T22:05:03.592000+00:00", referenced_message = NULL, pinned = FALSE, mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = "974420601810853931", premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2022-05-12T21:19:35.387671+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974432044966891541", flags = 0, embeds = list(), edited_timestamp = NULL, 
+    content = "I'm not sure why the chicken crossed the road, but I think it had something to do with getting to the other side.", components = list(), channel_id = "546099563006787607", author = list(username = "Django", public_flags = 0, id = "974385611161075713", discriminator = "6563", bot = TRUE, avatar_decoration = NULL, avatar = NULL), attachments = list(), guild_id = "546099563006787604")
+2022-05-13 00:05:04 DEBUG::about to handle event
+2022-05-13 00:05:04 DEBUG::Received message
+2022-05-13 00:05:04 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-13 00:05:04 DEBUG::msg: 10
+ 2022-05-13 00:05:04 DEBUG::msg: 0
+ 2022-05-13 00:05:04 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T22:05:03.592000+00:00", referenced_message = NULL, pinned = FALSE, mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = "974420601810853931", premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2022-05-12T21:19:35.387671+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974432044966891541", flags = 0, embeds = list(), edited_timestamp = NULL, 
+    content = "I'm not sure why the chicken crossed the road, but I think it had something to do with getting to the other side.", components = list(), channel_id = "546099563006787607", author = list(username = "Django", public_flags = 0, id = "974385611161075713", discriminator = "6563", bot = TRUE, avatar_decoration = NULL, avatar = NULL), attachments = list(), guild_id = "546099563006787604")
+2022-05-13 00:05:04 DEBUG::about to handle event
+2022-05-13 00:05:28 DEBUG::Received message
+2022-05-13 00:05:28 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-13 00:05:28 DEBUG::msg: 7
+ 2022-05-13 00:05:28 DEBUG::msg: 0
+ 2022-05-13 00:05:28 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T22:05:27.505000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974432146351456256", mentions = list(), mention_roles = "974391049118179351", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2020-06-14T21:53:46+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974432145265295390", flags = 0, 
+    embeds = list(), edited_timestamp = NULL, content = "<@&974391049118179351> why did the chicken cross the road?", components = list(), channel_id = "721844860713435158", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "721844860071706654")
+2022-05-13 00:05:28 DEBUG::about to handle event
+2022-05-13 00:05:29 DEBUG::Received message
+2022-05-13 00:05:29 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-13 00:05:29 DEBUG::msg: 11
+ 2022-05-13 00:05:29 DEBUG::msg: 0
+ 2022-05-13 00:05:29 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T22:05:27.505000+00:00", referenced_message = NULL, pinned = FALSE, nonce = "974432146351456256", mentions = list(), mention_roles = "974391049118179351", mention_everyone = FALSE, member = list(roles = list(), premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2020-06-14T21:53:46+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974432145265295390", flags = 0, 
+    embeds = list(), edited_timestamp = NULL, content = "<@&974391049118179351> why did the chicken cross the road?", components = list(), channel_id = "721844860713435158", author = list(username = "finvalone", public_flags = 0, id = "402310517152153610", discriminator = "3614", avatar_decoration = NULL, avatar = "4591de05e40ab5d16def72ba570e8c2d"), attachments = list(), guild_id = "721844860071706654")
+2022-05-13 00:05:29 DEBUG::about to handle event
+2022-05-13 00:05:31 DEBUG::Received message
+2022-05-13 00:05:31 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-13 00:05:31 DEBUG::msg: 12
+ 2022-05-13 00:05:31 DEBUG::msg: 0
+ 2022-05-13 00:05:31 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T22:05:28.940000+00:00", referenced_message = NULL, pinned = FALSE, mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = "974391049118179351", premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2022-05-12T19:22:09.478830+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974432151284113428", flags = 0, embeds = list(), edited_timestamp = NULL, 
+    content = "To get to the other side.", components = list(), channel_id = "721844860713435158", author = list(username = "Django", public_flags = 0, id = "974385611161075713", discriminator = "6563", bot = TRUE, avatar_decoration = NULL, avatar = NULL), attachments = list(), guild_id = "721844860071706654")
+2022-05-13 00:05:31 DEBUG::about to handle event
+2022-05-13 00:05:31 DEBUG::Received message
+2022-05-13 00:05:31 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-13 00:05:31 DEBUG::msg: 8
+ 2022-05-13 00:05:31 DEBUG::msg: 0
+ 2022-05-13 00:05:31 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T22:05:28.940000+00:00", referenced_message = NULL, pinned = FALSE, mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = "974391049118179351", premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2022-05-12T19:22:09.478830+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974432151284113428", flags = 0, embeds = list(), edited_timestamp = NULL, 
+    content = "To get to the other side.", components = list(), channel_id = "721844860713435158", author = list(username = "Django", public_flags = 0, id = "974385611161075713", discriminator = "6563", bot = TRUE, avatar_decoration = NULL, avatar = NULL), attachments = list(), guild_id = "721844860071706654")
+2022-05-13 00:05:31 DEBUG::about to handle event
+2022-05-13 00:05:31 DEBUG::Received message
+2022-05-13 00:05:31 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-13 00:05:31 DEBUG::msg: 13
+ 2022-05-13 00:05:31 DEBUG::msg: 0
+ 2022-05-13 00:05:31 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T22:05:30.736000+00:00", referenced_message = NULL, pinned = FALSE, mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = "974391049118179351", premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2022-05-12T19:22:09.478830+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974432158817067028", flags = 0, embeds = list(), edited_timestamp = NULL, 
+    content = "To get to the other side.", components = list(), channel_id = "721844860713435158", author = list(username = "Django", public_flags = 0, id = "974385611161075713", discriminator = "6563", bot = TRUE, avatar_decoration = NULL, avatar = NULL), attachments = list(), guild_id = "721844860071706654")
+2022-05-13 00:05:31 DEBUG::about to handle event
+2022-05-13 00:05:31 DEBUG::Received message
+2022-05-13 00:05:31 DEBUG::msg: MESSAGE_CREATE
+ 2022-05-13 00:05:31 DEBUG::msg: 9
+ 2022-05-13 00:05:31 DEBUG::msg: 0
+ 2022-05-13 00:05:31 DEBUG::msg: list(type = 0, tts = FALSE, timestamp = "2022-05-12T22:05:30.736000+00:00", referenced_message = NULL, pinned = FALSE, mentions = list(), mention_roles = list(), mention_everyone = FALSE, member = list(roles = "974391049118179351", premium_since = NULL, pending = FALSE, nick = NULL, mute = FALSE, joined_at = "2022-05-12T19:22:09.478830+00:00", hoisted_role = NULL, flags = 0, deaf = FALSE, communication_disabled_until = NULL, avatar = NULL), id = "974432158817067028", flags = 0, embeds = list(), edited_timestamp = NULL, 
+    content = "To get to the other side.", components = list(), channel_id = "721844860713435158", author = list(username = "Django", public_flags = 0, id = "974385611161075713", discriminator = "6563", bot = TRUE, avatar_decoration = NULL, avatar = NULL), attachments = list(), guild_id = "721844860071706654")
+2022-05-13 00:05:31 DEBUG::about to handle event
+2022-05-13 00:05:32 DEBUG::Sending payload on websocket
+2022-05-13 00:05:32 DEBUG::{"op":1,"d":9}
+2022-05-13 00:05:33 DEBUG::Received message
+2022-05-13 00:05:33 DEBUG::msg: NULL
+ 2022-05-13 00:05:33 DEBUG::msg: NULL
+ 2022-05-13 00:05:33 DEBUG::msg: 11
+ 2022-05-13 00:05:33 DEBUG::msg: NULL
+2022-05-13 00:05:33 DEBUG::Sending payload on websocket
+2022-05-13 00:05:33 DEBUG::{"op":1,"d":13}
+2022-05-13 00:05:33 DEBUG::Received message
+2022-05-13 00:05:33 DEBUG::msg: NULL
+ 2022-05-13 00:05:33 DEBUG::msg: NULL
+ 2022-05-13 00:05:33 DEBUG::msg: 11
+ 2022-05-13 00:05:33 DEBUG::msg: NULL

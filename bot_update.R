@@ -38,12 +38,14 @@ bot$register_event_handler("MESSAGE_CREATE", function(msg){
   
   # print(msg)
   
-  # print(msg$content)
+  print(msg$content)
   
-  if(startsWith(msg$content, "<@974385611161075713>")){
+  if(startsWith(msg$content, "<@&974420601810853931>") | startsWith(msg$content, "<@974385611161075713>") | startsWith(msg$content, "<@&974391049118179351>")){
     
     the_prompt <- gsub("<@974385611161075713> ", "", msg$content)
-    # the_prompt <- gsub("@django ", "", the_prompt)
+    the_prompt <- gsub("<@&974391049118179351> ", "", the_prompt)
+    the_prompt <- gsub("<@&974420601810853931>" , "", the_prompt)
+    
     
     n_tokens <- as.numeric(regmatches(the_prompt, gregexpr( "(?<=\\[).+?(?=\\])", the_prompt, perl = T))[[1]])
     
@@ -90,9 +92,9 @@ enable_file_logging(level=10)
 
 bot$start()
 
-Sys.sleep(60*60*4.9)
-
-bot$finalize()
+# Sys.sleep(60*60*4.9)
+# 
+# bot$finalize()
 
 
 
