@@ -33,7 +33,7 @@ jobs:
       - name: "Check for updates"
         run: Rscript 'bot_update.R'
         env:
-          r_telegram_bot_arnold: ${{ secrets.R_TELEGRAM_BOT_ARNOLD }}
+          r_discord_bot_django: ${{ secrets.R_DISCORD_BOT_DJANGO }}
           gpt3: ${{ secrets.GPT3 }}
       - name: "Commit"
         uses: stefanzweifel/git-auto-commit-action@v4
