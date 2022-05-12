@@ -1,6 +1,14 @@
 
-library(discordr)
-library(httr)
+library("R6")
+library("websocket")
+library("bitops")
+library("jsonlite")
+library("later")
+library("logging")
+library("magrittr")
+library("purrr")
+library("methods")
+library('httr')
 
 # source("gdrive.R")
 
@@ -14,7 +22,7 @@ source("https://raw.githubusercontent.com/favstats/discordr/master/R/websocket.R
 
 # print(Sys.getenv(r_discord_bot_django))
 
-bot <- discordr::DiscordrBot$new(token = Sys.getenv(r_discord_bot_django))
+bot <- DiscordrBot$new(token = Sys.getenv("r_discord_bot_django"))
 
 
 
