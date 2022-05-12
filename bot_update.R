@@ -44,11 +44,12 @@ bot$register_event_handler("MESSAGE_CREATE", function(msg){
   
   if(startsWith(msg$content, "<@&974420601810853931>") | startsWith(msg$content, "<@974385611161075713>") | startsWith(msg$content, "<@&974391049118179351>")){
     
+    bot_id <- paste0("<", regmatches(msg$content, gregexpr( "(?<=\\<).+?(?=\\>)", msg$content, perl = T))[[1]], ">")
+    
     the_prompt <- gsub("<@974385611161075713> ", "", msg$content)
     the_prompt <- gsub("<@&974391049118179351> ", "", the_prompt)
     the_prompt <- gsub("<@&974420601810853931>" , "", the_prompt)
     
-    bot_id <- paste0("<", regmatches(the_prompt, gregexpr( "(?<=\\<).+?(?=\\>)", the_prompt, perl = T))[[1]], ">")
     
     if(bot_id %in% c("<@974385611161075713>",
                      "<@&974391049118179351>",
