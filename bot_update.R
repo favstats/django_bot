@@ -38,9 +38,11 @@ bot$register_event_handler("MESSAGE_CREATE", function(msg){
   
   # print(msg)
   
-  if(startsWith(msg$content, "<@&974391049118179351>")){
+  # print(msg$content)
+  
+  if(startsWith(msg$content, "<@974385611161075713>")){
     
-    the_prompt <- gsub("<@&974391049118179351> ", "", msg$content)
+    the_prompt <- gsub("<@974385611161075713> ", "", msg$content)
     # the_prompt <- gsub("@django ", "", the_prompt)
     
     n_tokens <- as.numeric(regmatches(the_prompt, gregexpr( "(?<=\\[).+?(?=\\])", the_prompt, perl = T))[[1]])
@@ -76,7 +78,7 @@ bot$register_event_handler("MESSAGE_CREATE", function(msg){
     
     print(message_to_sent)
     
-    send_message(message_to_sent, msg$channel_id, bot) 
+    send_message(message_to_sent, as.character(msg$channel_id), bot) 
        
   }
 
@@ -94,7 +96,7 @@ bot$finalize()
 
 
 
-
+# send_message("yoyoyoo", "546099563006787607", bot)
 
 
 
