@@ -13,7 +13,6 @@ on:
       - master
       - main
 
-      
 jobs:
   update-data:
     name: Update Bot
