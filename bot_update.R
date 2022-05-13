@@ -109,6 +109,8 @@ Sys.sleep(60*60*4.75)
 
 bot$finalize()
 
+quit()
+
 
 
 # send_message("yoyoyoo", "546099563006787607", bot)
