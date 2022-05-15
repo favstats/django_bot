@@ -103,14 +103,21 @@ bot$register_event_handler("MESSAGE_CREATE", function(msg){
 # enable_console_logging(level=10)
 # enable_file_logging(level=10)
 
+print("start")
+
 bot$start()
+
+print("finalize")
 
 # Sys.sleep(60*60*4.75)
 
 bot$finalize()
 
+print("quit")
+
 quit()
 
+print("you still there?")
 
 
 # send_message("yoyoyoo", "546099563006787607", bot)
