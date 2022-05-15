@@ -25,12 +25,18 @@ source("https://raw.githubusercontent.com/favstats/discordr/master/R/websocket.R
 bot <- DiscordrBot$new(token = Sys.getenv("r_discord_bot_django"))
 
 
+start_time <<- Sys.time()
+
+seconds_past <<- 0
 
 bot$register_event_handler("MESSAGE_CREATE", function(msg){
   # avoid handling your own messages
   if (msg$author$id == "974385611161075713"){
     return()
   }
+  
+  current_time <- Sys.time()
+  
   # guard to work only in test channel
   # if (msg$channel_id != TEST_CHANNEL_ID){
   #   return()
@@ -96,6 +102,16 @@ bot$register_event_handler("MESSAGE_CREATE", function(msg){
     send_message(message_to_sent, as.character(msg$channel_id), bot) 
        
   }
+  
+  seconds_past <- as.numeric(current_time) - as.numeric(start_time)  
+  
+  if(seconds_past > 10){
+    print("quit")
+    
+    quit()
+    
+    print("you still there?")
+  }
 
 })
 
@@ -113,11 +129,7 @@ print("finalize")
 
 bot$finalize()
 
-print("quit")
 
-quit()
-
-print("you still there?")
 
 
 # send_message("yoyoyoo", "546099563006787607", bot)
