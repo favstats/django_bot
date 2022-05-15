@@ -105,7 +105,7 @@ bot$register_event_handler("MESSAGE_CREATE", function(msg){
 
 bot$start()
 
-Sys.sleep(60*60*4.75)
+# Sys.sleep(60*60*4.75)
 
 bot$finalize()
 
